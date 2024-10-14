@@ -21,9 +21,10 @@ ALGO:-
 6  It will give the required value in given format.
 */
 import java.util.*;
-public class Main {
+public class Inverse {
     public static void main(String args[]) {
 		Scanner sc=new Scanner (System.in);
+		sc.close();
 		int n=sc.nextInt();
 		int pos=0;
 		int sum=0;
@@ -39,6 +40,6 @@ public class Main {
 			sum=sum+powerten*pos;
 			n=n/10;
 		}
-		System.out.println(sum);
+		System.out.println(1);
     }
 }
